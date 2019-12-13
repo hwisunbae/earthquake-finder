@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Lab5</string>
+
+    <string-array name="LCapitals">
+        <item>Buenos Aries</item>
+        <item>Nassau</item>
+        <item>Yaounde</item>
+        <item>Copenhagen</item>
+        <item>Cairo</item>
+        <item>Helsinki</item>
+        <item>Tbilisi</item>
+        <item>Tegucigalpa</item>
+        <item>Jakarta</item>
+        <item>Kingston</item>
+        <item>Astana</item>
+        <item>Vientiane</item>
+    </string-array>
+
+    <string-array name="LCountries">
+        <item>Argentina</item>
+        <item>Bahamas</item>
+        <item>Cameroon</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>Finland</item>
+        <item>Georgia</item>
+        <item>Honduras</item>
+        <item>Indonesia</item>
+        <item>Jamaica</item>
+        <item>Kazakhstan</item>
+        <item>Laos</item>
+    </string-array>
+
+    <string-array name="RCapitals">
+        <item>Canberra</item>
+        <item>Dhaka</item>
+        <item>Bogota</item>
+        <item>Djibouti</item>
+        <item>Addis Ababa</item>
+        <item>Paris</item>
+        <item>Accra</item>
+        <item>Budapest</item>
+        <item>Tehran</item>
+        <item>Tokyo</item>
+        <item>Kuwait City</item>
+        <item>Beirut</item>
+    </string-array>
+
+    <string-array name="RCountries">
+        <item>Australia</item>
+        <item>Bangladesh</item>
+        <item>Colombia</item>
+        <item>Djibouti</item>
+        <item>Ethiopia</item>
+        <item>France</item>
+        <item>Ghana</item>
+        <item>Hungary</item>
+        <item>Iran</item>
+        <item>Japan</item>
+        <item>Kuwait</item>
+        <item>Lebanon</item>
+    </string-array>
+
+</resources>

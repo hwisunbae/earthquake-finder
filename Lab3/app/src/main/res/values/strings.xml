@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="usr">Username</string>
+    <string name="pwd">Password</string>
+    <string name="login">Login</string>
+    <string name="entUsr">Enter Username</string>
+    <string name="entPwd">Enter Password</string>
+    <string name="title_activity_user">User</string>
+    <string name="usrIs">Username is </string>
+    <string name="pwdIs">Password is</string>
+    <string name="home">Home</string>
+    <string name="title_activity_password">Password</string>
+    <string name="title_activity_userandpw">User and Password</string>
+    <string name="title_activity_uand_p">UAndP</string>
+</resources>

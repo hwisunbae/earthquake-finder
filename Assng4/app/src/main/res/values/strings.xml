@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assng4</string>
+
+    <string-array name="options">
+        <item></item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>

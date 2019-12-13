@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#99CC00">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#669900"
+        android:layout_margin="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab 6"
+            android:textSize="30dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3.5"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:textSize="25dp"
+                    android:textColor="#0709F3"
+                    android:layout_marginRight="51dp">
+                </TextView>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="ID"
+                    android:id="@+id/id"
+                    android:maxLength="8"
+                    android:textSize="25dp"
+                    android:inputType="number"></EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="25dp"
+                    android:textColor="#0709F3"
+                    android:layout_marginRight="20dp">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:textSize="25dp"
+                    android:id="@+id/name"
+                    android:maxLength="8">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marks"
+                    android:textSize="25dp"
+                    android:textColor="#0709F3"
+                    android:layout_marginRight="18dp">
+                </TextView>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Marks"
+                    android:id="@+id/marks"
+                    android:textSize="25dp"
+                    android:maxLength="8"
+                    android:inputType="numberDecimal">
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5"
+            android:orientation="vertical"
+            android:gravity="right">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ADD NEW STUDENT"
+                android:textSize="20dp"
+                android:id="@+id/add_student">
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="VIEW ALL STUDENTS"
+                android:textSize="20dp"
+                android:id="@+id/view_students">
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FIND STUDENT (USING ID)"
+                android:textSize="20dp"
+                android:id="@+id/find_student">
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="DELETE STUDENT (USING ID)"
+                android:textSize="20dp"
+                android:id="@+id/delete_student">
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

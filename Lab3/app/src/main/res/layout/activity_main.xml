@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="#0F21FB"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:padding="10dp"></TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/usr"
+            android:textColor="#FD28FC"
+            ></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/entUsr"
+            android:id="@+id/userName"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pwd"
+            android:textColor="#FD28FC"></TextView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/entPwd"
+            android:id="@+id/password"></EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/usrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/usr"
+        android:textColor="#FC101B"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/pwButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/pwd"
+        android:textColor="#FC101B"
+        android:textStyle="bold">
+    </Button>
+
+    <Button
+        android:id="@+id/usrAndPwButton"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="@string/login"
+        android:textColor="#FC101B"
+        android:textStyle="bold">
+    </Button>
+
+
+</LinearLayout>

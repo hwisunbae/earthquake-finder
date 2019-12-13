@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:background="#FAFA00"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Lab 5 Countries and Capitals"
+        android:textColor="#07078A" />
+
+    <LinearLayout
+        android:layout_weight="9.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/leftListView"
+            android:background="#FC101B">
+        </ListView>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/rightListView"
+            android:background="#FD28FC">
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

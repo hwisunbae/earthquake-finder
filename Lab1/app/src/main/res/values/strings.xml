@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="univ_h">HUMBER</string>
+    <string name="univ_r">RYERSON</string>
+    <string name="univ_y">YORK</string>
+    <string name="univ_s">SENECA</string>
+</resources>

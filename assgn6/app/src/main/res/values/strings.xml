@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hwisun Bae</string>
+    <string name="title_activity_maps">Hwisun Bae</string>
+
+    <string-array name="types">
+        <item>magnitude</item>
+        <item>date</item>
+    </string-array>
+</resources>
